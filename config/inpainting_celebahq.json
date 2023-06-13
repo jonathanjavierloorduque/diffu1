@@ -9,9 +9,9 @@
         "code": "code", // code backup
         "tb_logger": "tb_logger", // path of tensorboard logger
         "results": "results",
-        "checkpoint": "checkpoint",
-        "resume_state": "experiments/train_inpainting_celebahq_220426_233652/checkpoint/190" 
-        // "resume_state": null // ex: 100, loading .state  and .pth from given epoch and iteration
+        "checkpoint": "/content/drive/MyDrive/Colab Notebooks/Diffussion_Models/checkpoint",
+        //"resume_state": "experiments/train_inpainting_celebahq_220426_233652/checkpoint/190" 
+        "resume_state": null // ex: 100, loading .state  and .pth from given epoch and iteration
     },
 
     "datasets": { // train or test
@@ -19,10 +19,10 @@
             "which_dataset": {  // import designated dataset using arguments 
                 "name": ["data.dataset", "InpaintDataset"], // import Dataset() class / function(not recommend) from data.dataset.py (default is [data.dataset.py])
                 "args":{ // arguments to initialize dataset
-                    "data_root": "datasets/celebahq/flist/train.flist",
+                    "data_root": "/content/drive/MyDrive/Colab Notebooks/Diffussion_Models/new_folder",
                     "data_len": -1,
                     "mask_config": {
-                        "mask_mode": "hybrid"
+                        "mask_mode": "hybrid"//
                     }
                 } 
             },
