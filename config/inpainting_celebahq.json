@@ -48,7 +48,7 @@
             "which_dataset": {
                 "name": "InpaintDataset", // import Dataset() class / function(not recommend) from default file
                 "args":{
-                    "data_root": "datasets/celebahq/flist/test.flist",
+                    "data_root": "/content/drive/MyDrive/Colab Notebooks/Diffussion_Models/Test",
                     "mask_config": {
                         "mask_mode": "center"
                     }
