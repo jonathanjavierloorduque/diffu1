@@ -22,7 +22,7 @@
                     "data_root": "/content/drive/MyDrive/Colab Notebooks/Diffussion_Models/new_folder",
                     "data_len": -1,
                     "mask_config": {
-                        "mask_mode": "hybrid"//if Jonathan chose hybrid, then  for inference is the same method
+                        "mask_mode": "all"//if Jonathan chose hybrid, then  for inference is the same method
                     }
                 } 
             },
@@ -50,7 +50,7 @@
                 "args":{
                     "data_root": "/content/drive/MyDrive/Colab Notebooks/Diffussion_Models/Test",
                     "mask_config": {
-                        "mask_mode": "hybrid"// in this case we need to use a same mode as training
+                        "mask_mode": "all"// in this case we need to use a same mode as training
                     }
                 }
             },
